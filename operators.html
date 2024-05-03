@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Operators with Prompt Example</title>
+</head>
+
+<body>
+    <h1>JavaScript Operators with Prompt Example</h1>
+
+    <script>
+
+        var num1 = parseFloat(prompt("Enter the first number:"));
+        var num2 = parseFloat(prompt("Enter the second number:"));
+
+        // Arithmetic operators
+        var addition = num1 + num2;
+        var subtraction = num1 - num2;
+        var multiplication = num1 * num2;
+        var division = num1 / num2;
+        var modulus = num1 % num2;
+
+        //  results display
+        document.write("<p>Arithmetic Operations:</p>");
+        document.write("<p>Sum: " + addition + "</p>");
+        document.write("<p>Difference: " + subtraction + "</p>");
+        document.write("<p>Product: " + multiplication + "</p>");
+        document.write("<p>Quotient: " + division + "</p>");
+        document.write("<p>Modulus: " + modulus + "</p>");
+
+        // Logical operators
+        var isNum1Positive = num1 > 0;
+        var isNum2Positive = num2 > 0;
+        var areBothPositive = isNum1Positive && isNum2Positive;
+        var isEitherPositive = isNum1Positive || isNum2Positive;
+
+        // results
+        document.write("<p>Logical Operations:</p>");
+        document.write("<p>Is num1 positive? " + isNum1Positive + "</p>");
+        document.write("<p>Is num2 positive? " + isNum2Positive + "</p>");
+        document.write("<p>Are both numbers positive? " + areBothPositive + "</p>");
+        document.write("<p>Is either number positive? " + isEitherPositive + "</p>");
+
+        // Relational operators
+        var isNum1GreaterThanNum2 = num1 > num2;
+        var isNum1EqualToNum2 = num1 === num2;
+
+        //result
+        document.write("<p>Relational Operations:</p>");
+        document.write("<p>Is num1 greater than num2? " + isNum1GreaterThanNum2 + "</p>");
+        document.write("<p>Is num1 equal to num2? " + isNum1EqualToNum2 + "</p>");
+    </script>
+</body>
+
+</html>
