@@ -1,1 +1,1 @@
-JavaScript Practise Codes 
+JavaScript codes
