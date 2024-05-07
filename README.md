@@ -1,1 +1,1 @@
-JavaScript Codes - using loops concepts.
+loops concepts
